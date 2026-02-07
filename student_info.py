@@ -15,7 +15,7 @@ average_score = float(total_score/3)
 
 status = "pass"
 for result in scores:
-    if result <= 40:
+    if result < 40:
       status = "Fail"
       break
 
